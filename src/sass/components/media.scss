@@ -1,0 +1,29 @@
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .info {
+        background-image: url(../images/eagle@2x.jpg);
+    }
+    .services__icon--clock::before {
+        background-image: url(../images/img1@2x.png);
+       
+    }
+    .services__icon--graphic::before {
+        background-image: url(../images/img2@2x.png);
+       
+    }
+    .services__icon--monitor::before {
+        background-image: url(../images/img3@2x.png);
+       
+    }
+    .services__icon--book::before {
+        background-image: url(../images/img4@2x.png);
+       
+    }
+    .services__icon--home::before {
+        background-image: url(../images/img5@2x.png);
+    
+    }
+    .services__icon--square::before {
+        background-image: url(../images/img6@2x.png);
+       
+    }
+   }

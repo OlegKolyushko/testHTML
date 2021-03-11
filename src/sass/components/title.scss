@@ -1,0 +1,26 @@
+.sub-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 22px;
+    font-family: $ff-kaushan;
+    color: $gray-color;
+    text-transform: none;
+    font-weight: 500;
+}
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: $gray-color;
+    font-weight: 700;
+    line-height: 1.7;
+    margin-bottom: 65px;
+    &::after {
+        content: '';
+        display: block;
+        width: 61px;
+        height: 4px;
+        margin: 40px auto 0;
+        background-color: $pink-color;
+    }
+}

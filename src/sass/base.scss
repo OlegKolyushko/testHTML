@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+body {
+  font-family: 'Montserrat';
+}
+li {
+  list-style: none;
+}
+.link {
+  display: block;
+  text-decoration: none;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1201px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.section {
+  padding: 45px 0;
+}
