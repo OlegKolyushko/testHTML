@@ -55,6 +55,16 @@
         transition: 200ms;
     }
 }
+.header_svg {
+    fill: $white-color;
+    display: inline-block;
+}
+.header-list__link--icon:hover .header_svg {
+    fill: $yellow-color;
+    -webkit-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+}
 
 
 .header-list__link::after, .header-list__link--icon::after {

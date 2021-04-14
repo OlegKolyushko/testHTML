@@ -37,11 +37,8 @@
         text-transform: uppercase;
         line-height: 1.2;
     }
-    &__button-wrap {
-        text-align: center;
-    }
     &__button {
-        display: inline-block;
+        display: block;
         padding: 15px 33px;
         border: 2px solid $white-color;
         background-color: transparent;
@@ -50,7 +47,8 @@
         font-weight: 600;
         line-height: 1.2;
         color: $white-color;
-    
+        width: 160px;
+       margin: 0 auto;    
     }
 }
 

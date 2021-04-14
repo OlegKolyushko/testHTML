@@ -32,12 +32,18 @@
                           <a class="header-list__link link" href="#">CONTACT</a>
                       <li class="header-list__item">
                           <a class="header-list__link--icon link" href="#">
-                              <img class="header__img" srcset="images/cart.png 18w, images/cart@2x.png 36w" sizes="18px" src="images/cart.png" alt="#" width="18">
+                              <svg class="header_svg" width="19px" height="16px">
+                                  <use href="images/symbol-defs.svg#icon-cart"></use>
+                              </svg>
+                              <!-- <img class="header__img" srcset="images/cart.png 18w, images/cart@2x.png 36w" sizes="18px" src="images/cart.png" alt="#" width="18"> -->
                           </a>
                       </li>
                       <li class="header-list__item">
                           <a class="header-list__link--icon link" href="#">
-                              <img class="header__img"  srcset="images/glass.png 18w, images/glass@2x.png 36w" sizes="18px" src="images/glass.png" alt="#" width="18">
+                            <svg class="header_svg" width="19px" height="19px">
+                                <use href="images/symbol-defs.svg#icon-search"></use>
+                            </svg>
+                              <!-- <img class="header__img"  srcset="images/glass.png 18w, images/glass@2x.png 36w" sizes="18px" src="images/glass.png" alt="#" width="18"> -->
                           </a>
                       </li>
                   </ul>
@@ -55,9 +61,7 @@
                   <h2 class="info-container__title">
                       Welcome to MoGo
                   </h2>
-                  <div class="info-container__button-wrap">
-                      <button class="info-container__button">Learn more</button>
-                  </div>
+                  <button class="info-container__button">Learn more</button>
               </div>
           </div>
       </section>
@@ -67,7 +71,10 @@
               <span class="sub-title">We work with<br></span>
                   Amazing Services</h2>
               <ul class="services__info">
-                  <li class="services__item services__icon services__icon--clock">
+                  <li class="services__item">
+                      <svg fill="#95e1d3" width="33px" height="33px">
+                          <use href="images/infoSprite.svg#icon-alarm"></use>
+                      </svg>
                       <h3 class="services__item-title">
                           Photography
                       </h3>
@@ -75,7 +82,10 @@
                           Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                       </p>
                   </li>
-                  <li class="services__item services__icon services__icon--graphic">
+                  <li class="services__item">
+                    <svg fill="#95e1d3" width="33px" height="33px">
+                        <use href="images/infoSprite.svg#icon-stats-bars"></use>
+                    </svg>
                       <h3 class="services__item-title">
                           Web Design
                       </h3>
@@ -83,7 +93,10 @@
                           Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                       </p>
                   </li>
-                  <li class="services__item services__icon services__icon--monitor">
+                  <li class="services__item">
+                    <svg fill="#95e1d3" width="33px" height="33px">
+                        <use href="images/infoSprite.svg#icon-display"></use>
+                    </svg>
                       <h3 class="services__item-title">
                           Creativity
                       </h3>
@@ -91,7 +104,10 @@
                           Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                       </p>
                   </li>
-                  <li class="services__item services__icon services__icon--book">
+                  <li class="services__item">
+                    <svg fill="#95e1d3" width="33px" height="33px">
+                        <use href="images/infoSprite.svg#icon-map"></use>
+                    </svg>
                       <h3 class="services__item-title">
                           Seo
                       </h3>
@@ -99,7 +115,10 @@
                           Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                       </p>
                   </li>
-                  <li class="services__item services__icon services__icon--home">
+                  <li class="services__item">
+                    <svg fill="#95e1d3" width="33px" height="33px">
+                        <use href="images/infoSprite.svg#icon-home"></use>
+                    </svg>
                       <h3 class="services__item-title">
                           Css/Html
                       </h3>
@@ -107,7 +126,10 @@
                           Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                       </p>
                   </li>
-                  <li class="services__item services__icon services__icon--square">
+                  <li class="services__item">
+                    <svg fill="#95e1d3" width="33px" height="33px">
+                        <use href="images/infoSprite.svg#icon-qrcode"></use>
+                    </svg>
                       <h3 class="services__item-title">
                           Digital
                       </h3>
@@ -273,12 +295,12 @@
       <p class="footer__text">
           © 2016 MoGo free PSD template by <span class="footer__text-color">Laaqiq</span> 
       </p>
-      <div class="footer__form">
+      <form class="footer__form">
           <input type="text" placeholder="Your Email..." class="footer__form-text">
           <button class="footer__button">
               subscribe
           </button>
-      </div>
+      </form>
   </footer>
   </body>
 </html>
